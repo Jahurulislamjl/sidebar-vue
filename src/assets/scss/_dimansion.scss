@@ -1,0 +1,72 @@
+@import "variable";
+
+//padding
+@each $paddingList in $paddingLists {
+    .jp-#{$paddingList} {
+        padding: #{$paddingList}px;
+    }
+
+    .jpl-#{$paddingList} {
+        padding-left: #{$paddingList}px;
+    }
+
+    .jpr-#{$paddingList} {
+        padding-right: #{$paddingList}px;
+    }
+
+    .jpt-#{$paddingList} {
+        padding-top: #{$paddingList}px;
+    }
+
+    .jpb-#{$paddingList} {
+        padding-bottom: #{$paddingList}px;
+    }
+
+    .jpx-#{$paddingList} {
+        padding-left: #{$paddingList}px;
+        padding-right: #{$paddingList}px;
+    }
+
+    .jpy-#{$paddingList} {
+        padding-top: #{$paddingList}px;
+        padding-bottom: #{$paddingList}px;
+    }
+}
+
+//margin
+
+@each $marginList in $marginLists {
+    .jm-#{$marginList} {
+        margin: #{$marginList}px;
+    }
+
+    .jml-#{$marginList} {
+        margin-left: #{$marginList}px;
+    }
+
+    .jmr-#{$marginList} {
+        margin-right: #{$marginList}px;
+    }
+
+    .jmt-#{$marginList} {
+       margin-top: #{$marginList}px;
+    }
+
+    .jmb-#{$marginList} {
+       margin-bottom: #{$marginList}px;
+    }
+
+    .jmx-#{$marginList} {
+        margin-left: #{$marginList}px;
+        margin-right: #{$marginList}px;
+    }
+
+    .jmy-#{$marginList} {
+        margin-top: #{$marginList}px;
+        margin-bottom: #{$marginList}px;
+    }
+}
+
+
+
+
